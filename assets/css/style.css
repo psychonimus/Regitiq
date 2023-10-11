@@ -1,0 +1,620 @@
+body {
+    background: #F6F6F6;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    margin-left: 2rem;
+
+}
+
+
+.collapse ul li a {
+    padding: 10px;
+    margin: 0px 30px;
+}
+
+.collapse ul li a p {
+    padding-top: 6px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.13px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background: #ffffff;
+    position: relative;
+    border-radius: 18px;
+}
+
+
+.profile-card h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile-card p {
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Roboto;
+    font-size: 12.12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0rem !important;
+}
+
+#profile-photo {
+    position: absolute;
+    top: 36%;
+    left: 4%;
+}
+
+.profile-details {
+    padding: 1rem 3rem 1rem 5rem;
+}
+
+.left-options {
+    background-color: #ffffff;
+    border-radius: 18px;
+}
+
+
+.left-options ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+.left-options ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 19.389px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.194px;
+}
+
+.offcanvas-body ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+.offcanvas-body ul li {
+    padding:15px 0px;
+}
+
+
+.offcanvas-body ul li a {
+    color: #222222;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 19.389px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.194px;
+}
+.offcanvas-body ul li a i{
+    height: 10px;
+    width: 10px;
+    margin-right:20px;
+}
+.offcanvas-header i{
+    margin:0px 5px;
+    font-size: 30px;
+}
+
+@media (min-width : 992px) and (max-width : 1220px) {
+    .left-options ul li a {
+        color: #222222;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 14.389px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.194px;
+    }
+
+    .left-options ul li {
+        padding: 12px 10px !important;
+    }
+}
+
+.left-options ul li {
+    padding: 15px 10px;
+}
+
+.left-options ul li i {
+    margin: 0 10px;
+    width: 20px;
+    height: 10px;
+}
+
+.discussion-forum {
+    background-color: #ffffff;
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discussion-forum h3 {
+    color: #181818;
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.discussion-forum p {
+    padding: 2px 5px;
+    margin-bottom: 0px;
+    color: #181818;
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+
+}
+
+.tags {
+    border-radius: 4.848px;
+    background: #FFE3D4;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.first-section {
+    border-radius: 19.392px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1.21202px 0px rgba(0, 0, 0, 0.12), 0px 0px 2.42405px 0px rgba(0, 0, 0, 0.14);
+
+}
+
+.first-section img {
+    padding: 20px;
+}
+
+.first-section input {
+    width: 75%;
+    outline: none;
+    border: none;
+}
+
+@media (max-width : 417px) {
+    .first-section input {
+        width: 60% !important;
+    }
+}
+
+.first-section button {
+    color: #666;
+    font-family: Roboto;
+    font-size: 19.392px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 30px;
+    outline: none;
+    border: none;
+    background: rgba(255, 227, 212, 0.41);
+    width: 25%;
+
+}
+
+@media (max-width : 576px) {
+    .first-section button {
+        font-size: 14px;
+        padding: 18px;
+    }
+}
+
+.first-section button:nth-child(1) {
+    border-bottom-left-radius: 19.392px;
+}
+
+.first-section button:nth-child(4) {
+
+    border-bottom-right-radius: 19.392px;
+}
+
+.first-section .four-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.stories-section img {
+    border-radius: 15px;
+    max-width : 180px;
+}
+
+.stories-section .story {
+
+    margin-right: 10px;
+}
+
+.stories-container {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.stories-container::-webkit-scrollbar {
+    color: transparent;
+}
+
+.story {
+    position: relative;
+}
+
+.story-overlay h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23.469px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.story-overlay {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    text-align: center;
+    width: 100%;
+}
+
+.posts-section {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.user-detail {
+    margin-left: 20px;
+}
+
+.user-detail h4 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.user-detail p {
+    color: rgba(0, 0, 0, 0.46);
+    font-family: Roboto;
+    font-size: 12.12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.posts-section .caption {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16.968px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.stats i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+@media (max-width : 400px) {
+    .stats i {
+        font-size: 20px;
+        margin-right: 4px;
+    }
+}
+
+.stats button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.comment {
+    border-radius: 21.816px;
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.comment img {
+    padding-left: 10px;
+    padding: 10px;
+    width: 20%;
+}
+
+.comment input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+@media (max-width : 576px) {
+    .comment input {
+        width: 70%;
+    }
+}
+
+.comment-icon {
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.comment-icon i {
+    margin-right: 12px;
+    color: rgba(0, 0, 0, 0.46);
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    margin: 0 30px;
+}
+
+.nav-panel {
+    background-color: #ffffff;
+    display: flex;
+
+    align-items: center;
+}
+
+.nav-panel .nav-item {
+    padding-top: 1rem;
+}
+
+.nav-logo {
+    margin-left: -19rem;
+    padding-right: 16rem;
+}
+
+.third-col-first {
+    border-radius: 21.816px;
+    background: linear-gradient(250deg, #FFF 2.51%, rgba(212, 241, 255, 0.54) 96.8%);
+}
+
+
+
+.third-col-first h2 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 29.089px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+@media (min-width : 992px) and (max-width : 1220px) {
+    .third-col-first h2 {
+
+        font-size: 20.089px;
+
+
+    }
+}
+
+.third-col-first p {
+    color: rgba(0, 0, 0, 0.42);
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.third-col-first button {
+    border-radius: 13.332px;
+    background: linear-gradient(180deg, rgba(0, 172, 255, 0.46) 0%, rgba(189, 0, 255, 0.35) 100%);
+    outline: none;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14.544px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 20px;
+    width: 100%;
+
+}
+
+.people {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+
+.people p {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 19.392px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+@media (min-width : 992px) and (max-width : 1220px) {
+    .people p {
+
+        font-size: 15.392px;
+
+
+    }
+}
+
+.people .content h4 {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 19.392px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0 !important;
+
+}
+
+@media (min-width : 992px) and (max-width : 1220px) {
+    .people .content h4 {
+
+        font-size: 13.392px;
+
+
+    }
+
+    .people .content p {
+
+        font-size: 9.392px !important;
+
+
+    }
+}
+
+.people .content {
+    margin-left: 15px;
+}
+
+.people img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.people .content p {
+    color: #212121;
+
+    font-family: Roboto;
+    font-size: 13.332px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0 !important;
+}
+
+.people button {
+    border-radius: 9.696px;
+    border: 1.212px solid #F37435;
+    background: #FFF;
+    padding: 8px 15px;
+    color: #F37435;
+    font-weight: 500;
+}
+
+@media (min-width : 992px) and (max-width : 1220px) {
+    .people button {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+}
+
+.bottom-nav .navbar-nav li {
+    margin: 0 45px;
+}
+
+.bottom-nav {
+    background-color: #ffffff;
+    z-index: 5;
+
+}
+
+
+@media (max-width : 576px) {
+    .bottom-nav svg {
+        height: 20px;
+        width: 20px;
+
+    }
+
+    .bottom-nav .navbar-nav li {
+        margin: 0 20px;
+    }
+
+    .bottom-nav li p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width : 350px) {
+    .bottom-nav svg {
+        height: 20px;
+        width: 20px;
+
+    }
+
+
+
+
+    .bottom-nav .navbar-nav li {
+        margin: 0 15px;
+    }
+
+    .bottom-nav li p {
+        display: none;
+    }
+
+}
+
+.collapsed-nav i {
+    font-size: 20px;
+}
+
+.collapsed-nav button {
+    background-color: transparent;
+    border: none;
+}
+.events {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.events img{
+   border-radius: 50px;
+   width: 15%;
+}
+.events p{
+    color: #666;
+font-family: Roboto;
+font-size: 19.392px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 0 0 10px;
+}
